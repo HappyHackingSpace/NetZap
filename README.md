@@ -4,6 +4,8 @@
 
 NetZap is a graphical user interface (GUI) built on top of the powerful ZMap network scanning tool. NetZap simplifies the process of conducting high-speed, large-scale network scans by providing an intuitive and user-friendly interface. It allows users to harness the capabilities of ZMap without needing extensive command-line experience.
 
+![NetZap icon](/netzap.webp)
+
 ---
 
 ## Features
