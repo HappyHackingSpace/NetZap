@@ -12,7 +12,7 @@ A NextJS project with zmap integration for network scanning.
 
 ### Pull from Docker Hub
 ```bash
-docker run -d --name netzap -p 3000:3000 atiilla/netzap:latest
+docker run -d --name netzap -p 3000:3000 happyhackingspace/netzap:latest
 ```
 
 ### Access the Application
