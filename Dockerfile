@@ -28,9 +28,6 @@ RUN npm ci --legacy-peer-deps
 # Copy the rest of the application
 COPY . .
 
-# Copy zmap script
-COPY zmap.sh /usr/local/bin/zmap.sh
-RUN chmod +x /usr/local/bin/zmap.sh
 
 # Set environment variable to indicate Docker environment
 ENV DOCKER_ENV=true
@@ -41,4 +38,4 @@ RUN npm run build
 EXPOSE 3000
 
 # Custom entrypoint to run zmap.sh before starting Next.js
-CMD ["/bin/bash", "-c", "/usr/local/bin/zmap.sh && npm start"]
+CMD ["npm", "start"]
